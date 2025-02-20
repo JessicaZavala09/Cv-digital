@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Delicious+Handrawn&display=swap');
+
+/*Selectores de elemento: estos apunta a etiquetas especificas */
+body {
+    background-color: blanchedalmond;
+    border-color: brown;
+}
+
+h2 {
+    color: rgb(255, 127, 219);
+    font-size: 20px;
+    font-family: "Delicious Handrawn", serif;
+
+}
+
+ul {
+    background-color: darkgreen; 
+}
+ 
+li {
+    font-size: larger 27 px;
+    font-weight: bold; /*propiedad para el grosor del texto*/
+
+}
+ 
+/* selectores de clase se aplican a elemetos que tienen una clase*/
+
+.texto-educacion {
+color: red; 
+}
+
+.lista-experiencia {
+    background-color: orange;
+    border: 1px solid black; 
+    font-family: "Delicious Handrawn", serif;
+    font-size: larger;
+
+}
+
+/*selectores de ID: se aplica a un elemnto unico que tiene un ID */ 
+
+#lista-unica{
+    color: white; /* propiedad del color del texto*/
+    background-color: black; /*propiedad de color de fondo */ 
+    font-size: 20px; /*propiedad del tama;o de la fuente*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*propiedad del tipo de fuente*/
+} 
+ 
+h1 {background-color: white;
+    border: 10px dotted red; /*propiedad del borde */ 
+    padding: 20px; /*propiedad del margen interno*/ 
+    margin: 50px; /*esta es la propiedad del margen externo*/
+    position: fixed;
+    right: 0px;
+}
+
+/*prpiedades comunes 
+-colores: colores del texto, color del fondo 
+-tipografia: tama;o de la fuente, tipo de fuente, grosor de la fuente (font)
+-Modelo de caja: margen interno y margen externo */
+
+/*propiedad de posicionamiento position
+static: posicion determinada 
+relative:posicion relativo a su posicion original 
+absolute: saca el elemento del flujo normal de la pagina
+fixed: no se mueve aunque hagas scroll 
+*/
