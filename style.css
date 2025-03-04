@@ -35,6 +35,11 @@ color: red;
     border: 1px solid black; 
     font-family: "Delicious Handrawn", serif;
     font-size: larger;
+    display: none; 
+    
+    
+
+
 
 }
 
@@ -53,8 +58,35 @@ h1 {background-color: white;
     margin: 50px; /*esta es la propiedad del margen externo*/
     position: fixed;
     right: 0px;
-}
 
+    
+}
+ .contenedor-padre {
+    height: 300px;
+    background-color: rgb(255, 166, 0);
+    display: flex;  
+    align-items: center;
+   justify-content: center;
+
+ }
+ .hijo-uno {
+    background-color: chocolate;
+ }
+
+ .hijo-dos {
+    background-color: blue;
+ }
+.hijo-tres {
+    background-color: blueviolet;
+    align-self: flex-start;
+
+}
+.hijo-cuatro {
+    background-color: rgb(0, 255, 157);
+}
+.hijo-cinco {
+    background-color: rgb(157, 36, 78);
+}
 /*prpiedades comunes 
 -colores: colores del texto, color del fondo 
 -tipografia: tama;o de la fuente, tipo de fuente, grosor de la fuente (font)
@@ -65,4 +97,15 @@ static: posicion determinada
 relative:posicion relativo a su posicion original 
 absolute: saca el elemento del flujo normal de la pagina
 fixed: no se mueve aunque hagas scroll 
+*/
+
+/*propiedad de posicionamiento display 
+block: ocupa todo el espacio que pueda 
+inline: solo ocupa el espacio necesario
+none: ocultar un elemento*/
+
+/*display: flex 
+-flex -direcition: cambiar la direcciones de los elementos
+justify-content:alinear horizontalmente 
+align-items: alinear verticalmente
 */
